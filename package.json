@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jest": "^28.1.0"
+  },
+  "name": "jest_1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "test:hack-1":"jest ./hack_1/.hack_1.js",
+    "test:hack-2":"jest ./hack_2/.hack_2.js",
+    "test:hack-3":"jest ./hack_3/.hack_3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
