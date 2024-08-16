@@ -6,8 +6,13 @@
  * 
  * output => 2   
  */
-let arr = ["foo","bar","baz","qux","echo"];
+let arr = ["foo", "bar", "baz", "qux", "echo"];
 let result = 0;
+arr.forEach(item => {
+    if (item.startsWith("b")) {
+        result++;
+    }
+});
 
 
 //export result
